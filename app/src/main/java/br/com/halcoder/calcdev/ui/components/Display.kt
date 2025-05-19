@@ -65,7 +65,7 @@ fun Display(modifier: Modifier) {
                 horizontalArrangement = Arrangement.End
             ) {
                 Text(
-                    text = "Teste",
+                    text = "",
                     color = if (isSystemInDarkTheme()) addColor.onSurface else addColor.primary
                 )
             }
